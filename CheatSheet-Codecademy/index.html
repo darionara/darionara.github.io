@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codecademy Cheat Sheet</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div id="intro">
+      <h1>Introducing Daria's cheat sheet.</h1>
+      <p>Frontend in a nutshell.</p>
+    </div>
+    
+    <nav>
+      <ul>
+        <li><a href="#html">HTML</a></li>
+        <li><a href="#css">CSS</a></li>
+        <li><a href="#js">JS</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <table id="html">
+      <thead>
+        <tr>
+          <th colspan="2">HTML</th>
+        </tr>
+        <tr>
+          <th>name</th>
+          <th>description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&lt;form&gt;</td>
+          <td>The purpose of a &ltform&gt is to allow users to input information and send it</td>
+        </tr>
+        <tr>
+          <td rowspan="8">&ltinput&gt</td>
+          <td>type="text" creates a single row field for text input.</td>
+        </tr>
+        <tr>
+          <td>type="password" creates a single row field that censors text input.</td>
+        </tr>
+        <tr>
+          <td>type="number" creates a single row field for number input.</td>
+        </tr>
+        <tr>
+          <td>type="range" creates a slider to select from a range of numbers.</td>
+        </tr>
+        <tr>
+          <td>type="checkbox" creates a single checkbox which can be paired with other checkboxes.</td>
+        </tr>
+        <tr>
+          <td>type="radio" creates a radio button that can be paired with other radio buttons.</td>
+        </tr>
+        <tr>
+          <td>type="list" will pair the &ltinput&gt with a &lt;datalist&gt; element if the id of both are the same.</td>
+        </tr>
+        <tr>
+          <td>type="submit" creates a submit button.</td>
+        </tr>
+        <tr>
+          <td>&lt;select&gt;</td>
+          <td>A &ltselect&gt element is populated with &lt;option&gt; elements and renders a dropdown list selection.</td>
+        </tr>
+        <tr>
+          <td>&lt;datalist&gt;</td>
+          <td>A &ltdatalist&gt element is populated with &lt;option&gt; elements and works with an &lt;input&gt; to search through choices.</td>
+        </tr>
+        <tr>
+          <td>&lt;texarea&gt;</td>
+          <td>A &lt;textarea&gt; element is a text input field that has a customizable area.</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td colspan="2">When a &lt;form&gt; is submitted, the name of the fields that accept input and the value of those fields are sent as name=value pairs.<br>
+            Using the &lt;form&gt; element in conjunction with the other elements listed above allows us to create sites that take into consideration the wants and needs of our users. </td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <table id="css">
+      <thead>
+        <tr>
+          <th colspan="2">CSS</th>
+        </tr>
+        <tr>
+          <th colspan="2">FLEXBOX essentials</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>display:flex</td>
+          <td>Child elements of flex containers will change size and location in response to the size and position of their parent container.</td>
+        </tr>
+        <tr>
+          <td>display:inline-flex</td>
+          <td>We use it when we want multiple flex containers to display inline with each other.</td>
+        </tr>
+        <tr>
+          <td>justify-content</td>
+          <td>is used to space items along the main axis.</td>
+        </tr>
+        <tr>
+          <td>align-items</td>
+          <td>is used to space items along the cross axis.</td>
+        </tr>
+        <tr>
+          <td>flex-grow</td>
+          <td>is used to specify how much space (and in what proportions) flex items absorb along the main axis.</td>
+        </tr>
+        <tr>
+          <td>flex-shrink</td>
+          <td>is used to specify how much flex items shrink and in what proportions along the main axis.</td>
+        </tr>
+        <tr>
+          <td>flex-basis</td>
+          <td>is used to specify the initial size of an element styled with flex-grow and/or flex-shrink.</td>
+        </tr>
+        <tr>
+          <td>flex</td>
+          <td>is used to specify flex-grow, flex-shrink, and flex-basis in one declaration.</td>
+        </tr>
+        <tr>
+          <td>flex-wrap</td>
+          <td>specifies that elements should shift along the cross axis if the flex container is not large enough.</td>
+        </tr>
+        <tr>
+          <td>align-content</td>
+          <td>is used to space rows along the cross axis.</td>
+        </tr>
+        <tr>
+          <td>flex-direction</td>
+          <td>is used to specify the main and cross axes.</td>
+        </tr>
+        <tr>
+          <td>flex-flow</td>
+          <td>is used to specify flex-wrap and flex-direction in one declaration.</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Some common use cases for flexbox:</td>
+          <td>
+            <ul>
+              <li>page navigation, including spacing items and stretching/shrinking items as desired</li>
+              <li>centering items easily</li>
+              <li>easily flipping content or switching the order of content</li>
+            </ul>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <table id="js">
+      <thead>
+        <tr>
+          <th colspan="2">JavaScript</th>
+        </tr>
+        <tr>
+          <th colspan="2">Data Types</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Number</td>
+          <td>let length = 16;</td>
+        </tr>
+        <tr>
+          <td>String</td>
+          <td>let lastName = "Johnson";</td>
+        </tr>
+        <tr>
+          <td>Object</td>
+          <td>let person = {firstName:"John", lastName:"Doe"};</td>
+        </tr>
+        <tr>
+          <td>Array</td>
+          <td>const cars = ["Saab", "Volvo", "BMW"];</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>4 Ways to Declare a JavaScript Variable:</td>
+          <td>
+           <ul>
+            <li>Using var</li>
+            <li>Using let</li>
+            <li>Using const</li>
+            <li>Using nothing</li>
+           </ul>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </main>
+
+  <footer>
+    <p>All rights reserved.</p>
+  </footer>
+</body>
+</html>
