@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #C6CC02;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 3rem;
+}
+
+.heading h1 {
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #fff;
+}
+
+h2 {
+    font-family: 'Lobster Two', serif;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+p, a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.heading p {
+    color: #262447;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #262447;
+    padding: 5px 30px;
+}
+
+nav ul li a:hover {
+    background-color: #464464;
+    transition: background-color .1s ease-in-out;
+}
+
+main {
+    width: 70%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+section h2 {
+    text-align: left;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-item {
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+#colors .flex-item {
+    width: 200px;
+    color: #fff;
+}
+
+#color-1 {
+    background-color: #464464;
+}
+
+#color-2 {
+    background-color: #C6CC02;
+    color: #000; /* jak to nadpisać?? xd aktualnie działa inline CSS*/
+}
+
+#color-3 {
+    background-color: #B88A95;
+}
+
+#color-4 {
+    background-color: #689D71;
+}
+
+#fonts flex-item p {
+    text-align: left; /* czemu się nie zmienia? */
+}
+
+#fonts .container-flex {
+    flex-direction: column;
+}
+
+#fonts .flex-item {
+    width: 100%;
+    margin: 10px auto;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.lobster {
+    font-family: 'Lobster Two', serif;
+}
+
+.playfair {
+    font-family: 'Playfair Display', serif;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+#text-styles .flex-item {
+    flex: 1;
+}
+
+@media only screen and (max-width: 900px) {
+    #text-styles .container-flex {
+        flex-direction: column;
+    }
+}
