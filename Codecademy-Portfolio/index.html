@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/brands.css">
+    <link rel="stylesheet" href="assets/css/solid.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><span class="fa-solid fa-d" id="logo"></span></li>
+          <li><a href="#hero-content">About me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li class="mobile-hidden">
+            <a href="contact.html" class="contact-btn-desktop">Contact me</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="back-to-top hidden">
+        <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="back-to-top-icon"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M7 11l5-5m0 0l5 5m-5-5v12"
+        />
+      </svg>
+      </button>
+      </header>
+      <main>
+      <section id="hero">
+        <div class="hero-content">
+          <h2>Hello, I'm Daria</h2>
+          <h1>I am a <span class="title">Frontend Developer</span></h1>
+          <p>Psst are you looking for a frontend developer? <br>Let's shake hands with me.</p>
+          <a href="contact.html" class="desktop-hidden contact-btn-mobile">Contact me</a>
+        </div>
+        <div class="img-container">
+          <img src="./images/hero.JPG" alt="hero photo" class="hero-img">
+          <div class="square square-1"></div>
+          <div class="square square-2"></div>
+          <div class="square square-3"></div>
+        </div>
+      </section>
+      <section id="projects">
+        <h3>My projects</h3>
+        <div>
+        <figure class="project-img">
+          <img src="./images/project-1.JPG" alt="project 1">
+          <figcaption>Project 1</figcaption>
+        </figure>
+        <figure class="project-img">
+          <img src="./images/project-2.JPG" alt="project 2">
+          <figcaption>Project 2</figcaption>
+        </figure>
+        <figure class="project-img">
+          <img src="./images/project-3.JPG" alt="project 3">
+          <figcaption>Project 3</figcaption>
+        </figure>
+        </div>
+      </section>
+      <section id="skills">
+        <h3>Some of my skills</h3>
+        <span class="fa-brands fa-html5 fa-2x"></span>
+        <span class="fa-brands fa-css3-alt fa-2x"></span>
+        <span class="fa-brands fa-square-js fa-2x"></span>
+        <span class="fa-brands fa-git fa-2x"></span>
+        <span class="fa-brands fa-github fa-2x"></span>
+        <span class="fa-brands fa-node-js fa-2x"></span>
+        <span class="fa-brands fa-bootstrap fa-2x"></span>
+      </section>
+    </main> 
+    <footer>
+      <span>Follow me: </span>
+      <a href="#"><span class="fa-brands fa-github"></span></a>
+      <a href="#"><span class="fa-brands fa-facebook"></span></a>
+      <a href="#"><span class="fa-brands fa-linkedin"></span></a>
+      <a href="#"><span class="fa-brands fa-instagram"></span></a>
+    </footer>  
+  </body>
+</html>
