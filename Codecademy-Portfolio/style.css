@@ -146,21 +146,34 @@ h1 {
     background-color: #46A46C;
 }
 
-.project-img img {
-    width: 18.75em;
-    height: auto;
-    border-radius: .5em;
+/*#projects div*/
+.project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .project-img {
-    border: solid 1px #2D1832;
-    border-radius: .5em;
+    width: 20em;
+    height: 15em;
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: .5em;
     margin: 2em;
+    border: 2px solid #2D1832;
+    border-radius: .5em;
 }
 
-figcaption {
-    font-weight: 700;
+.project-1 {
+    background-image: url(./images/project-1.JPG);
+}
+
+.project-2 {
+    background-image: url(./images/project-2.JPG);
+}
+
+.project-3 {
+    background-image: url(./images/project-3.JPG);
 }
 
 /* SKILLS SECTION */
@@ -252,6 +265,12 @@ footer span {
         top: -2em;
         right: -1.5em;
         opacity: .5;
+    }
+
+    .project-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
 }
 
