@@ -36,14 +36,14 @@ const goToTop = () => {
     });
   };
 
-backToTopButton.addEventListener('click', goToTop);
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
 
-$('a[href^="#"]').click(function () {
-    $('html, body').animate({
-        scrollTop: $( $(this).attr('href') ).offset().top
-    }, 500);
-
-    return false;
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
 });
 
 
