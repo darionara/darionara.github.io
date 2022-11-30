@@ -1,0 +1,19 @@
+// custom variables
+$primary: #c29938;
+$light: #fbf5e5;
+
+// import the functions & Variables
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+
+$custom-theme-colors: (
+"altlight": #f2ebfa,
+"altdark": #522192
+);
+
+// dodanie nowych kolorów u mnie nie działa, gwiazdki w sekcji "reviews" powinny być fioletowe ("altdark")
+
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+// import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap';
