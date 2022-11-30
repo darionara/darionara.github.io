@@ -1,0 +1,238 @@
+body {
+  font-family: 'Lato', sans-serif !important;
+}
+
+h1 {
+  font-size: 48px !important;
+  font-weight: 700 !important;
+  line-height: 58px !important;
+}
+
+h3 {
+  font-size: 32px !important;
+  font-weight: 700 !important;
+  line-height: 44.8px !important;
+  text-align: center;
+}
+
+h4 {
+  display: inline-block;
+  margin-bottom: 15px !important;
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  line-height: 38px !important;
+}
+
+nav {
+  display: flex;
+  padding-top: 30px;
+  /*padding-right: calc(1.5rem * .5);
+  padding-left: calc(1.5rem * .5);*/
+}
+
+section {
+  padding-top: 120px;
+}
+
+footer {
+  background-color: #523B3B;
+}
+
+input[name="nameData"] {
+  margin-top: 60px !important;
+}
+
+input {
+  display: block;
+  padding-left: 15px;
+  width: 100%;
+  margin-top: 15px !important;
+  height: 60px;
+  padding-left: 15px;
+  border: 1px solid #8A8A8A;
+}
+
+input:hover,
+textarea:hover {
+  border: 1px solid #7B548D;
+}
+
+input:focus,
+textarea:focus {
+  border: 1px solid #7B548D !important;
+}
+
+input:focus::placeholder,
+textarea:focus::placeholder {
+  color: transparent;
+}
+
+input:focus-visible,
+textarea:focus-visible {
+  outline: 0px;
+}
+
+textarea {
+  display: block;
+  padding-left: 15px;
+  padding-top: 14px;
+  width: 100%;
+  margin-bottom: 15px !important;
+  margin-top: 15px !important;
+  height: 230px;
+  border: 1px solid #8A8A8A;
+}
+
+button {
+  padding: 18px 48px;
+  background-color: #7B548D;
+  opacity: 1;
+  border: 0;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  transition: opacity 0.1s linear;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black !important;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.navbar a:hover {
+  color: #7B548D !important;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  /*padding-right: calc(1.5rem * .5);
+  padding-left: calc(1.5rem * .5);*/
+  padding-top: 34px;
+  padding-bottom: 34px;
+}
+
+.footer span {
+  width: 100%;
+  margin-bottom: 0;
+  color: white;
+}
+
+.navbar-footer {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end !important;
+}
+
+.navbar-footer a {
+  text-decoration: none;
+  color: white !important;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+}
+
+.navbar-footer a:hover {
+  opacity: .7;
+}
+
+.navbar-footer ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.navbar-footer li {
+  display: inline-flex;
+  margin-left: 30px;
+}
+
+a {
+  color: #7B548D !important;
+  font-weight: 700;
+  text-decoration: none !important;\
+  transition: opacity 0.1s linear;
+}
+
+a:hover {
+  opacity: 0.9;
+}
+
+.navbar {
+  width: 100%;
+  justify-content: flex-end !important;
+}
+
+.navbar ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.navbar li {
+  display: inline-flex;
+  margin-left: 30px;
+}
+
+.bg-grey {
+  background-color: #DAD4D3;
+}
+
+.heading-content {
+  padding-top: 48px;
+  background: linear-gradient(to bottom, #DAD4D3 91.5%, transparent 0);
+}
+
+.heading-content p {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #3F3F3F;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.heading-content button {
+  margin-left: 24px;
+}
+
+.heading-content input {
+  display: inline-block;
+  width: 340px;
+}
+
+.open-book {
+  margin-top: 60px;
+  margin-bottom: 120px;
+}
+
+.copyright {
+  display: inline-block;
+}
+
+input[type="checkbox"] {
+  display: inline-block;
+  height: auto;
+  width: auto;
+  margin-right: 15px;
+}
+
+.btn-send {
+  display: block;
+  margin-top: 24px;
+  margin-bottom: 210px;
+}
+
+/*
+.bg-section {
+  background-image: url('images/bg-section.png');
+  background-size: cover;  ---> nie wiem jak odpowiednio ustawić rozmiar - w %?
+  background-repeat: no-repeat;
+  background-position: center;
+} */
