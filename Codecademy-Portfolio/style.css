@@ -84,8 +84,8 @@ nav ul li:not(:last-child) a:hover {
     bottom: 2em;
     border-radius: 100%;
     background: #2D1832;
-    padding-top: 0.4em;
-    padding-bottom: 0.23em;
+    padding-top: 5.333px;
+    padding-bottom: 3.067px;
     border: none;
     cursor: pointer;
     opacity: 1;
