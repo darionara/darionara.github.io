@@ -53,6 +53,7 @@ nav ul {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
+    padding: 0;
 }
 
 nav ul li a {
@@ -84,7 +85,7 @@ section h2 {
 
 .flex-item {
     border: 1px solid #000;
-    padding: 10px;
+    padding: 10px 0;
 }
 
 #colors .flex-item {
@@ -98,7 +99,6 @@ section h2 {
 
 #color-2 {
     background-color: #C6CC02;
-    color: #000; /* jak to nadpisać?? xd aktualnie działa inline CSS*/
 }
 
 #color-3 {
@@ -107,10 +107,6 @@ section h2 {
 
 #color-4 {
     background-color: #689D71;
-}
-
-#fonts flex-item p {
-    text-align: left; /* czemu się nie zmienia? */
 }
 
 #fonts .container-flex {
@@ -150,8 +146,23 @@ section h2 {
     flex: 1;
 }
 
-@media only screen and (max-width: 900px) {
-    #text-styles .container-flex {
+@media only screen and (max-width: 980px) {
+    .container-flex {
         flex-direction: column;
+    }
+
+    #colors .flex-item {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 612px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 15px;
     }
 }
